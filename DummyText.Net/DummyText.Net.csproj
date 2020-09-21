@@ -3,10 +3,26 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>DummyText</RootNamespace>
+    <Authors>Tristan Pearce</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company />
+    <Copyright>Copyright ©2020 Tristan Pearce</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/TristanPearce/DummyText.Net</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageProjectUrl>https://github.com/TristanPearce/DummyText.Net</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Library for generating dummy text and data.</Description>
+    <Version>0.0.1</Version>
+    <PackageTags>Text Generator</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Resources\LorumIpsum-words-utf8" />
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
